@@ -15,7 +15,7 @@ def cargar_imagen(path):
     imagen = Image.open(path).convert('L')
     return np.array(imagen)
 
-path = 'mmom.png'  # Ruta de tu imagen
+path = 'momo.png'  # Ruta de tu imagen
 imagen = cargar_imagen(path)
 tono = 128
 resultados = busqueda_en_imagen(imagen, tono)
